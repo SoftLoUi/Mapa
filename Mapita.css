@@ -1,0 +1,58 @@
+body, html {
+    background-color: rgb(241, 253, 249);
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: "Comic Sans MS", sans-serif;
+}
+
+#header {
+    
+    background-color: #71df5e;
+    padding: 20px;
+    text-align: center;
+    max-width: 100%; /* Limita el ancho del encabezado */
+    margin: 0 auto; /* Centra el encabezado horizontalmente */
+}
+
+#header h1 {
+    font-family: "Lucida Sans Unicode", sans-serif;
+    margin-top: 0;
+    color: #0c3915;
+    font-size: 2.5em; /* Tamaño de fuente  */
+}
+
+#header h2 {
+    font-family: "Palatino", sans-serif;
+    margin: 5px 0;
+    color: #1a1717;
+    font-size: 1.2em; 
+}
+
+#showMapBtn {
+    font-family: "Helvetica", sans-serif;
+    background-color: #4caf56;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+#map-container {
+    width: 60%;
+    height: 60%;
+    margin: 20px auto;
+    text-align: center;
+    display: none; /* Inicia oculto */
+}
+
+#map {
+    
+    width: 100%;
+    height: 100%;
+}
